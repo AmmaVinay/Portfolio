@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.about-me-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bg-image {
+    background: linear-gradient(to top, #e6e6fa, #fff);
+    /* Customize the gradient colors and opacity */
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: visible;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.social-wrap {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.skill-images-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-images-wrap img {
+    width: 150px;
+    height: 150px;
+}
+
+/* Default styling for the icons */
+.social-icon i {
+    background-color: #fff;
+    width: 40%;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+/* Media query for screens with a maximum width of 768px (responsive) */
+
+
+.image-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eff4fd;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-background {
+    background-color: #eff4fd;
+}
+
+.text-heading {
+    font-family: 'Acme';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.paragraph {
+    font-family: Georgia, Monospace;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.navbar {
+    background-color: #f0a500;
+    /* Orange Background Color */
+}
+
+.navbar-brand {
+    color: #fff;
+    /* White Text Color */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    /* White Text Color */
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e69200;
+    /* Darker Orange on Hover */
+}
+
+#sectionHome {
+    padding: 50px 0;
+}
+
+.bg_image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.bg_image_2 {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+
+}
+
+.text-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #418BAF;
+    margin-top: 20px;
+}
+
+.text-muted {
+    font-size: 20px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #f0a500;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e69200;
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#sectionAboutMe {
+    padding: 30px;
+}
+
+#sectionAboutMe h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #418BAF;
+}
+
+#sectionAboutMe ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#sectionAboutMe li {
+    margin-bottom: 10px;
+}
+
+#sectionAboutMe strong {
+    font-weight: bold;
+    color: #050d18;
+}
+
+#sectionAboutMe span {
+    color: #050d18;
+}
+
+#sectionResume {
+    padding: 30px;
+}
+
+.heading_h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #418BAF;
+    margin-bottom: 20px;
+}
+
+.heading_h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #050d18;
+    margin-bottom: 10px;
+}
+
+.heading_h5 {
+    font-size: 18px;
+    color: #050d18;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+em {
+    font-style: italic;
+}
